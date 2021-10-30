@@ -1,0 +1,59 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+h3{
+    padding-top: 30px;
+    padding-left: 30px;
+    font-size: 1.2em;
+}
+.flex{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+}
+img{
+    width: 50%;
+    height: 40%
+}
+
+.bad {
+  padding-right: 5%;
+  padding-left: 5%;
+}
+h1{
+    
+    font-family: monospace;
+    font-size: 5em;
+}
+p{
+    padding: 1.5em 0;
+    font-size: 2rem ;
+    line-height: 1.5;
+    width: 70%;
+    letter-spacing: 5%;
+}
+button{
+    color: white;
+    padding: 20px 50px;
+    background-color: black;
+    border: none;
+}
+
+@media screen and (max-width: 425px) {
+    .flex{
+        flex-direction: column;
+    }
+    h1{
+        font-family: monospace;
+        font-size: 5.5em;
+    }
+    p{
+        font-size: 1rem ;
+        line-height: 2;
+        width: 30%;
+        letter-spacing: 5%;
+    }
+}
